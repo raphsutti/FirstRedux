@@ -1,7 +1,7 @@
 export default function() {
   return [
-    { title: 'Javascript: Awesome'},
-    { title: 'Harry otter'},
+    { title: 'Harry Potter'},
+    { title: 'Narnia'},
     { title: 'Self help book by me'},
     { title: 'Eloquent Javascript'},
   ]
