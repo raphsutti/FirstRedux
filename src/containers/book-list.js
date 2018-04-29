@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect }from 'react-redux';
 
 export default class BookList extends Component {
   renderList() {
@@ -15,5 +16,13 @@ export default class BookList extends Component {
         {this.renderList()}
       </ul>
     }
+  }
+}
+
+function mapStateToProps(state) {
+  // whatever is returned will show up as props
+  // inside of BookList
+  return {
+    asdf: '123'
   }
 }
